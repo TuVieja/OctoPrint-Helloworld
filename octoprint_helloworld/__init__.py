@@ -6,7 +6,7 @@ import octoprint.plugin
 class HelloWorldPlugin(octoprint.plugin.StartupPlugin,
                        octoprint.plugin.TemplatePlugin):
     def on_after_startup(self):
-        self._logger.info("Hello World ERIK!")
+        self._logger.info("Hello World ERIK GitHub!")
         
 __plugin_name__ = "Hello World"
 __plugin_pythoncompat__ = ">=2.7,<4"
